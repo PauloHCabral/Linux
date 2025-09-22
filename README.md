@@ -55,3 +55,21 @@ Kernel	O núcleo do sistema operacional Linux, cuja função é virtualizar e co
 Shell	Uma interface de linha de comando ( CLI ), também conhecida como shell, na qual um usuário pode inserir comandos para executar as funções do kernel.
 System Utility	Disponibiliza ao usuário todas as funcionalidades do sistema operacional.
 
+
+
+Caminho	Descrição
+/	O diretório de nível superior é o sistema de arquivos raiz e contém todos os arquivos necessários para inicializar o sistema operacional antes que outros sistemas de arquivos sejam montados, bem como os arquivos necessários para inicializar os demais sistemas de arquivos. Após a inicialização, todos os outros sistemas de arquivos são montados em pontos de montagem padrão como subdiretórios da raiz.
+/bin	Contém binários de comando essenciais.
+/boot	Consiste no bootloader estático, no executável do kernel e nos arquivos necessários para inicializar o sistema operacional Linux.
+/dev	Contém arquivos de dispositivos para facilitar o acesso a todos os dispositivos de hardware conectados ao sistema.
+/etc	Arquivos de configuração do sistema local. Arquivos de configuração para aplicativos instalados também podem ser salvos aqui.
+/home	Cada usuário no sistema tem um subdiretório aqui para armazenamento.
+/lib	Arquivos de biblioteca compartilhada necessários para inicialização do sistema.
+/media	Dispositivos externos de mídia removível, como unidades USB, são montados aqui.
+/mnt	Ponto de montagem temporário para sistemas de arquivos regulares.
+/opt	Arquivos opcionais, como ferramentas de terceiros, podem ser salvos aqui.
+/root	O diretório inicial do usuário root.
+/sbin	Este diretório contém executáveis ​​usados ​​para administração do sistema (arquivos binários do sistema).
+/tmp	O sistema operacional e muitos programas usam este diretório para armazenar arquivos temporários. Este diretório geralmente é limpo na inicialização do sistema e pode ser excluído em outros momentos sem qualquer aviso.
+/usr	Contém executáveis, bibliotecas, arquivos man, etc.
+/var	Este diretório contém arquivos de dados variáveis, como arquivos de log, caixas de entrada de e-mail, arquivos relacionados a aplicativos da web, arquivos cron e muito mais.
